@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-
+import './Profile.css';
 
 
 const Profile = ({
@@ -11,34 +11,35 @@ const Profile = ({
     statsviews,
     statslikes
 }) => {
-    return (
-        <div class="profile">
-            <div class="description">
+    return (      
+        <div className='profile'>
+            <div className='description'>
                 <img
                     src={avatar}
                     alt={username}
-                    class="avatar"
+                    className='avatar'
                 />
-                <p class="name">{username}</p>
-                <p class="tag">{tag}</p>
-                <p class="location">{location}</p>
+                <p className='name'>{username}</p>
+                <p className='tag'>@{tag}</p>
+                <p className='location'>{location}</p>
             </div>
 
-            <ul class="stats">
-                <li>
-                    <span class="label">Followers</span>
-                    <span class="quantity">{statsfollowers}</span>
+            <ul className='stats'>
+                <li className='StatItem'>
+                    <span className='label'>Followers</span>
+                    <span className='quantity'>{statsfollowers}</span>
                 </li>
-                <li>
-                    <span class="label">Views</span>
-                    <span class="quantity">{statsviews}</span>
+                <li className='StatItem'>
+                    <span className='label'>Views</span>
+                    <span className='quantity'>{statsviews}</span>
                 </li>
-                <li>
-                    <span class="label">Likes</span>
-                    <span class="quantity">{statslikes}</span>
+                <li className='StatItem'>
+                    <span className='label'>Likes</span>
+                    <span className='quantity'>{statslikes}</span>
                 </li>
             </ul>
-        </div>)
+        </div>   
+            )
 };
 Profile.propTypes = {
     avatar: PropTypes.string,

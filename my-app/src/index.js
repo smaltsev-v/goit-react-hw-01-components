@@ -25,9 +25,9 @@ ReactDOM.render(
 );
 
 
-// const profile = user[0];
+
   
 
-// // );
+
 ReactDOM.render(<App/>, document.querySelector('#root')
 );

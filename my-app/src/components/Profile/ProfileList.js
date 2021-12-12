@@ -6,7 +6,7 @@ function ProfileList({ items })  {
             {items.map(item => (
                 <li key = { item.tag }>
                  < Profile
-                    key={item.tag}
+                    
                     avatar={item.avatar}
                     username={item.username}
                     tag={item.tag}
