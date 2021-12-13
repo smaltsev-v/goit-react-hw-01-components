@@ -16,7 +16,7 @@ export default function App() {
         <Container title= "Профиль социальной сети:">
             <ProfileList items={users} />
         </Container>
-        <Container title= "Секция статистики">
+        <Container title= "Секция статистики:">
                 <Statistics title="Upload stats" stats={data} />
                 <Statistics stats={data} />
         </Container>
