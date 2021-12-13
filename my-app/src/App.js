@@ -21,7 +21,7 @@ export default function App() {
          </Container>
          <Container title= "Секция статистики:">
                 <Statistics title="Upload stats" stats={data} />
-                <Statistics stats={data} />
+                {/* <Statistics stats={data} /> */}
          </Container>
            
             <Container title="Список друзей:">
