@@ -1,16 +1,24 @@
+ul {
+  list-style: none;
+  padding: 0px;
+}
 p {
   text-align: center;
 }
-
 .profile {
-  display: block;
-  width: 210px;
-  margin-left: auto;
-  margin-right: auto;
-  align-self: start;
+  padding: 10px;
+  width: 570px;
+  background-color: #e3f2f7;
+}
+.description {
+  width: 300px;
+  height: 100%;
+  padding: 30px;
+  margin: 50px auto 0;
+  background: #fff;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 4px 8px 35px 0 rgb(108 178 232 / 41%);
   border: 1px solid #dde4ed;
-  border-radius: 6px;
-  background-color: #fff;
 }
 
 .avatar {
@@ -37,17 +45,25 @@ p {
 .stats {
   display: flex;
 
-  justify-content: center;
-
+  justify-content: space-between;
+  width: 365px;
   list-style: none;
-  background-color: #f4f6f9;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  border-radius: 0 0 15px 15px;
 }
 
 .StatItem {
-  border: 1px solid #dde4ed;
   padding: 10px;
+
+  display: flex;
+
+  flex-direction: column;
+  width: 33.33333%;
+  padding: 15px;
+  border: 1px solid #dde4ed;
+  text-align: center;
+  background-color: #eff8fb;
 }
 .label {
   display: block;
