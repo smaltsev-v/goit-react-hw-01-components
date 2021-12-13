@@ -4,7 +4,12 @@ p {
 
 .profile {
   display: block;
-
+  width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: start;
+  border: 1px solid #dde4ed;
+  border-radius: 6px;
   background-color: #fff;
 }
 
@@ -12,35 +17,44 @@ p {
   border-radius: 50%;
   width: 100px;
   display: block;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 .name {
   font-weight: bold;
+  text-align: center;
 }
 .tag {
-  color: gray;
+  color: #bec6ce;
+  text-align: center;
 }
 .location {
-  color: grey;
+  color: #bec6ce;
+  text-align: center;
 }
+
 .stats {
-  display: inline-flex;
-  border: 1px solid grey;
-  border-radius: 6px;
+  display: flex;
+
+  justify-content: center;
+
   list-style: none;
-  background-color: rgba(255, 255, 255, 0.377);
+  background-color: #f4f6f9;
   margin: 0;
   padding: 0;
 }
 
 .StatItem {
-  border: 1px solid grey;
+  border: 1px solid #dde4ed;
   padding: 10px;
 }
 .label {
   display: block;
+  color: #bec6ce;
 }
 .quantity {
+  text-align: center;
   font-weight: 700;
+  color: #2b3e53;
 }
