@@ -8,7 +8,7 @@ p {
 .profile {
   padding: 10px;
   width: 570px;
-  background-color: #e3f2f7;
+  background-color: #eff3f5;
 }
 .description {
   width: 300px;
@@ -17,7 +17,7 @@ p {
   margin: 50px auto 0;
   background: #fff;
   border-radius: 15px 15px 0 0;
-  box-shadow: 4px 8px 35px 0 rgb(108 178 232 / 41%);
+  box-shadow: 4px 8px 35px 0 rgba(166, 196, 219, 0.41);
   border: 1px solid #dde4ed;
 }
 
@@ -50,7 +50,7 @@ p {
   list-style: none;
   margin: 0 auto;
   padding: 0;
-  border-radius: 0 0 15px 15px;
+  box-shadow: 4px 8px 35px 0 rgba(166, 196, 219, 0.41);
 }
 
 .StatItem {
