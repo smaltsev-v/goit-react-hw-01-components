@@ -1,4 +1,6 @@
 .friendList {
+  display: grid;
+  justify-content: center;
   padding: 10px;
   width: 570px;
   height: 100%;
@@ -10,7 +12,7 @@
   width: 300px;
   height: 100px;
   list-style: none;
-
+  margin-bottom: 10px;
   background: #fff;
   box-shadow: 4px 8px 35px 0 rgba(166, 196, 219, 0.41);
 }
