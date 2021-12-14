@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
-import styles from'./Statistics.module.css'
+import s from'./Statistics.module.css'
 
 const Statistics = ({ title, stats }) => {
   return (
-    <section className={styles.statistics}>
-      {title && <h2 className={styles.title}>{title}</h2>}
+    <section className={s.statistics}>
+      {title && <h2 className={s.title}>{title}</h2>}
 
-      <ul className={styles.statList}>
+      <ul className={s.statList}>
         {stats.map(({ id, label, percentage }) => {
           const getRandom = (min, max) => {
             return Math.ceil(Math.random() * (max - min) + min);
@@ -14,7 +14,7 @@ const Statistics = ({ title, stats }) => {
           return (
             <li
               key={id}
-              className={styles.item}
+              className={s.item}
               style={{
                 backgroundColor: `rgb(${getRandom(0, 255)}, ${getRandom(
                   0,
@@ -22,8 +22,8 @@ const Statistics = ({ title, stats }) => {
                 )}, ${getRandom(0, 255)})`,
               }}
             >
-              <span className={styles.label}>{label}</span>
-              <span className={styles.percentage}>{percentage}%</span>
+              <span className={s.label}>{label}</span>
+              <span className={s.percentage}>{percentage}%</span>
             </li>
           );
         })}

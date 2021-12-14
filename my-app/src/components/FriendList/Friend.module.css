@@ -5,6 +5,8 @@
   width: 570px;
   height: 100%;
   background-color: #eff3f5;
+  margin-left: auto;
+  margin-right: auto;
 }
 .item {
   display: flex;

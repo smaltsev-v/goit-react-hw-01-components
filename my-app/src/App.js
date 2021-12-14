@@ -1,7 +1,7 @@
 
 
 //component
-
+import './App.css'
 import Container from './components/Container/Container'
 import ProfileList from "./components/Profile/ProfileList"
 import Statistics from './components/Statistics/Statistics'
