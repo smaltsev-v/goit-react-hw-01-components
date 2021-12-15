@@ -20,8 +20,8 @@ const TransactionHistory = ({ items }) => {
                         <tr key={id}>
                             <Transaction
                                 type={type}
-                                Amount={amount}
-                                Currency={currency} />
+                                amount={amount}
+                                currency={currency} />
                         </tr>
                     )
      
