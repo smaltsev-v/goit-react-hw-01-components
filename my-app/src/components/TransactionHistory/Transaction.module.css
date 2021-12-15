@@ -1,0 +1,11 @@
+.transactionHistory {
+  width: 570px;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item {
+  background-color: #00bcd5;
+  font-weight: 700;
+  color: #fff;
+}
