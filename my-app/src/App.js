@@ -17,19 +17,19 @@ import transactions from './Data/transactions.json'
 export default function App() {
     return (
         <div className="App">
-          <Container title= "Профиль социальной сети:">
+          <Container title= "Задание 1 - Профиль социальной сети">
              <ProfileList items={users} />
          </Container>
-         <Container title= "Секция статистики:">
+         <Container title= "Задание 2 - Секция статистики">
                 <Statistics title="Upload stats" stats={data} />
                 {/* <Statistics stats={data} /> */}
          </Container>
            
-            <Container title="Список друзей:">
+            <Container title="Задание 3 - Список друзей">
                 <FriendList friends={friends} />
             </Container>
-            <Container title="Список друзей:">
-            <TransactionHistory items={transactions} />;
+            <Container title="Задание 4 - История транзакций">
+            <TransactionHistory items={transactions} />
             </Container>
         
         </div>
